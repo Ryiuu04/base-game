@@ -131,7 +131,7 @@
 				-2,
 				-2
 			],
-			"xmlName": "note splash",
+			"xmlName": "note splash1",
 			"anim": "note0"
 		},
 		{
@@ -139,7 +139,7 @@
 				-2,
 				-2
 			],
-			"xmlName": "note splash",
+			"xmlName": "note splash1",
 			"anim": "note1"
 		},
 		{
@@ -147,7 +147,7 @@
 				-2,
 				-2
 			],
-			"xmlName": "note splash",
+			"xmlName": "note splash1",
 			"anim": "note2"
 		},
 		{
@@ -155,7 +155,7 @@
 				-2,
 				-2
 			],
-			"xmlName": "note splash",
+			"xmlName": "note splash1",
 			"anim": "note3"
 		}
 	],
@@ -282,20 +282,20 @@
 			{
 				"anim": "start",
 				"xmlName": "start",
-				"offsets": [-5, 5],
+				"offsets": [10, -50],
 				"looping": false
 			},
 			{
 				"anim": "loop",
 				"xmlName": "loop",
-				"offsets": [-5, 5],
+				"offsets": [10, -50],
 				"looping": true,
-				"fps": 12
+                "fps": 22
 			},
 			{
 				"anim": "end",
 				"xmlName": "end",
-				"offsets": [-15, -17],
+				"offsets": [10, -50],
 				"looping": false
 			}
 		],
@@ -303,20 +303,20 @@
 			{
 				"anim": "start",
 				"xmlName": "start",
-				"offsets": [-5, 5],
+				"offsets": [10, -50],
 				"looping": false
 			},
 			{
 				"anim": "loop",
 				"xmlName": "loop",
-				"offsets": [-5, 5],
+				"offsets": [10, -50],
 				"looping": true,
-				"fps": 12
+                "fps": 22
 			},
 			{
 				"anim": "end",
 				"xmlName": "end",
-				"offsets": [-15, -17],
+				"offsets": [10, -50],
 				"looping": false
 			}
 		],
@@ -324,20 +324,21 @@
 			{
 				"anim": "start",
 				"xmlName": "start",
-				"offsets": [-5, 5],
-				"looping": false
+				"offsets": [10, -50],
+				"looping": false,
+                "fps": 22
 			},
 			{
 				"anim": "loop",
 				"xmlName": "loop",
-				"offsets": [-5, 5],
+				"offsets": [10, -50],
 				"looping": true,
-				"fps": 12
+                "fps": 22
 			},
 			{
 				"anim": "end",
 				"xmlName": "end",
-				"offsets": [-15, -17],
+				"offsets": [10, -50],
 				"looping": false
 			}
 		],
@@ -345,30 +346,26 @@
 			{
 				"anim": "start",
 				"xmlName": "start",
-				"offsets": [-5, 5],
+				"offsets": [10, -50],
 				"looping": false
 			},
 			{
 				"anim": "loop",
 				"xmlName": "loop",
-				"offsets": [-5, 5],
-				"looping": true,
-				"fps": 12
+				"offsets": [10, -50],
+				"looping": true
 			},
 			{
 				"anim": "end",
 				"xmlName": "end",
-				"offsets": [-15, -17],
+				"offsets": [10, -50],
 				"looping": false
 			}
 		]
 	],
-	"splashTexture": "UI/notes/splashes",
-    "sustainSplashTexture": "UI/notes/holdCover",
+	"splashTexture": "UI/notes/noteSplashes",
 	"antialiasing": true,
 	"inGameColoring": true,
 	"noteScale": 0.7,
-	"splashScale": 1,
-    "susSplashScale": 1,
-	"susSplashOrigin": [-5, 5]
+	"susSplashOrigin": [0, 0]
 }
